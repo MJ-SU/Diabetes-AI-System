@@ -73,9 +73,6 @@ python src/explain.py
 - `predict_shap_waterfall.png`：SHAP 解釋圖
 - `shap_summary.png`：SHAP summary 圖
 
-## 部署與存取
-
-如果你要讓專案「只有拿到連結的人可看」，建議在部署平台層級設定私有分享、驗證或受保護路由；README 本身不負責存取控制。
 
 ## 注意事項
 
