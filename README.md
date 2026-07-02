@@ -1,6 +1,6 @@
 # Diabetes AI System
 
-以 PyTorch 建立的糖尿病風險預測展示專案，整合資料前處理、模型推論、SHAP 可解釋性與 Streamlit 互動介面。
+以 PyTorch 建立的糖尿病風險預測專案，整合資料前處理、模型推論、SHAP 可解釋性與 Streamlit 互動介面。
 
 ## 專案亮點
 
@@ -16,7 +16,7 @@
 - 前處理：StandardScaler
 - 可解釋性：SHAP
 - 前端：Streamlit
-- 資料集：`data/diabetes.csv`
+- 資料集：`data/diabetes.csv`取自Pima Indians Diabetes Database
 
 ## 專案結構
 
@@ -76,5 +76,4 @@ python src/explain.py
 
 ## 注意事項
 
-- 這是糖尿病風險初步篩檢工具，不是醫療診斷工具。
-- `models/diabetes_model.pth` 與 `models/scaler.pkl` 需要保留，否則前端與 CLI 都無法正常運作。
+- 這是利用糖尿病風險初步篩檢工具，不是醫療診斷工具。
