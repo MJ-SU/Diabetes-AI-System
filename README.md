@@ -13,6 +13,7 @@
 ## 技術架構
 
 - 模型：PyTorch 二元分類神經網路
+- 訓練框架:Optuna
 - 前處理：StandardScaler
 - 可解釋性：SHAP
 - 前端：Streamlit
