@@ -38,7 +38,7 @@ def configure_cjk_font():
             matplotlib.rcParams["axes.unicode_minus"] = False
             return True
 
-    # 找不到中文字型，仍要修正負號顯示問題，但回傳 False 讓呼叫端改用英文標籤
+    # 找不到中文字型，修正負號顯示問題，回傳 False 讓呼叫端改用英文標籤
     matplotlib.rcParams["axes.unicode_minus"] = False
     return False
 
@@ -407,8 +407,6 @@ def generate_text_report(patient_df, warnings, probability, tier, tier_advice, s
     report_path = output_dir / "predict_report.txt"
     report_path.write_text("\n".join(lines), encoding="utf-8")
     return report_path
-
-# 主流程
 
 def main():
     print("=== Diabetes Risk Prediction ===", flush=True)
